@@ -13,6 +13,7 @@
 		2B64D883253EAC2100D9522B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B64D881253EAC2100D9522B /* Main.storyboard */; };
 		2B64D885253EAC2300D9522B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B64D884253EAC2300D9522B /* Assets.xcassets */; };
 		2B64D888253EAC2300D9522B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B64D886253EAC2300D9522B /* LaunchScreen.storyboard */; };
+		2B64D891253EAC3D00D9522B /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B64D890253EAC3D00D9522B /* NetworkMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2B64D884253EAC2300D9522B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B64D887253EAC2300D9522B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B64D889253EAC2300D9522B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B64D890253EAC3D00D9522B /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2B64D884253EAC2300D9522B /* Assets.xcassets */,
 				2B64D886253EAC2300D9522B /* LaunchScreen.storyboard */,
 				2B64D889253EAC2300D9522B /* Info.plist */,
+				2B64D890253EAC3D00D9522B /* NetworkMonitor.swift */,
 			);
 			path = NetworkMonitorSampleApp;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B64D880253EAC2100D9522B /* ViewController.swift in Sources */,
+				2B64D891253EAC3D00D9522B /* NetworkMonitor.swift in Sources */,
 				2B64D87C253EAC2100D9522B /* AppDelegate.swift in Sources */,
 				2B64D87E253EAC2100D9522B /* SceneDelegate.swift in Sources */,
 			);
